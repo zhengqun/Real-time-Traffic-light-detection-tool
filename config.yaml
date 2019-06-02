@@ -1,0 +1,31 @@
+train:
+  descriptor: hog
+  classifier: svm
+  outfile: C:/Users/gvadakku/Desktop/final_software_cnn_play/images/hog_out.pkl
+  positive_image_directory: C:/Users/gvadakku/Desktop/final_software_cnn_play/images/svm_data/positive/
+  negative_image_directory: C:/Users/gvadakku/Desktop/final_software_cnn_play/images/svm_data/negative/
+  window_size: (32, 64)
+
+run:
+  descriptor: hog
+  classifier_location: C:/Users/gvadakku/Desktop/final_software_cnn_play/images/hog_out.pkl
+  detector: colordetector_hsv
+  image_directory: C:/Users/gvadakku/Desktop/final_software_cnn_play/images/test_input/
+  window_size: (32, 64)
+
+svm:
+  C: 10
+
+hog:
+  block_size: (2, 2)
+  cell_size: (8, 8)
+  orientations: 9
+
+
+colordetector_hsv:
+  max_size: 300
+  kernel_size: 5
+  
+  
+
+
