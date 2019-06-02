@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\gvadakku\\Desktop\\final_software_cnn_play\\cnn\\traffic_light-0.001-6conv-basic.model"
+all_model_checkpoint_paths: "C:\\Users\\gvadakku\\Desktop\\final_software_cnn_play\\cnn\\traffic_light-0.001-6conv-basic.model"
